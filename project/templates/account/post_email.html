@@ -1,0 +1,7 @@
+{% extends 'flatpages/default.html' %}
+
+{% block content %}
+    <h2>Новый пост в категории "{{ post.category.name }}"</h2>
+    <p>{{ post.title }}</p>
+    <p>{{ post.text }}</p>
+{% endblock %}
